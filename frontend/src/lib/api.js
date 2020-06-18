@@ -9,7 +9,7 @@ const withHeaders = () => {
 }
 
 export const getAllEvents = () => {
-  return axios.get(`${baseUrl}/talks`)
+  return axios.get(`${baseUrl}/talks/`)
 }
 
 export const getSingleEvent = id => {
@@ -26,15 +26,15 @@ export const editEvent = (data, id) => {
 }
 
 export const deleteEvent = id => {
-  return axios.delete(`${baseUrl}/talks/${id}`, withHeaders())
+  return axios.delete(`${baseUrl}/talks/${id}/`, withHeaders())
 }
 
 export const registerUser = data => {
-  return axios.post(`${baseUrl}/register`, data)
+  return axios.post(`${baseUrl}/register/`, data)
 }
 
 export const loginUser = data => {
-  return axios.post(`${baseUrl}/login`, data)
+  return axios.post(`${baseUrl}/login/`, data)
 }
 
 export const getOwnProfile = () => {
@@ -54,7 +54,7 @@ export const updateBasket = (data, id) => {
 }
 
 export const userBasket = () => {
-  return axios.get(`${baseUrl}/basket/query`, withHeaders())
+  return axios.get(`${baseUrl}/basket/query/`, withHeaders())
 }
 
 export const createBasket = () => {

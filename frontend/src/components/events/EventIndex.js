@@ -94,6 +94,7 @@ const handleHideFilters = () => {
     return <Redirect to="/notfound" />
   }
   if (!events) return null
+  console.log(events)
   return (
     <div className="body-index">
       <button onClick={handleShowFilters} className="show-filters-button">Show Filters</button>

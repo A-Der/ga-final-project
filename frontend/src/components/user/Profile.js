@@ -22,9 +22,9 @@ function ProfilePage() {
 
   const picture = () => {
     if (profile.profile_image === '') {
-      return <img src='https://www.twago.com/img/2018/default/no-user.png' alt={profile.username} loading="lazy" width="150" height="150" />
+      return <img className="prof-image" src='https://www.twago.com/img/2018/default/no-user.png' alt={profile.username} loading="lazy" width="150" height="150" />
     } else {
-      return < img src={profile.profile_image} alt={profile.username} loading="lazy" width="150" height="150" />
+      return <img className="prof-image" src={profile.profile_image} alt={profile.username} loading="lazy" width="150" height="150" />
     }
   }
 
