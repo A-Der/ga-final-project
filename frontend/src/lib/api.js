@@ -30,11 +30,11 @@ export const deleteEvent = id => {
 }
 
 export const registerUser = data => {
-  return axios.post(`${baseUrl}/register/`, data)
+  return axios.post(`${baseUrl}/register`, data)
 }
 
 export const loginUser = data => {
-  return axios.post(`${baseUrl}/login/`, data)
+  return axios.post(`${baseUrl}/login`, data)
 }
 
 export const getOwnProfile = () => {
