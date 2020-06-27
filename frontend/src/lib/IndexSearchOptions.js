@@ -8,7 +8,11 @@ export const categoryOptions = [
   { label: 'Marketing', id: 14 },
   { label: 'Properties', id: 15 },
   { label: 'Human Studies', id: 16 },
-  { label: 'Technology', id: 17 }
+  { label: 'Technology', id: 17 },
+  { label: 'Health', id: 18 },
+  { label: 'Culture',id: 19 },
+  { label: 'Food & Drink', id: 20 },
+  { label: 'Travel', id: 21 }
 ]
 
 export const locationOptions = [
