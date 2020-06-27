@@ -10,7 +10,6 @@ import EventComment from './EventComment'
 
 import useFetchNew from '../../utils/useFetchNew'
 import { isAuthenticated } from '../../lib/auth'
-// import { isAttending } from '../../lib/auth'
 import { popupToasty } from '../../lib/toasty'
 import Notifications from 'react-notify-toast'
 
@@ -53,8 +52,6 @@ console.log(event)
     return <Redirect to="/notfound" />
   }
 
-  // if (!event) return null
-
 
 
 
@@ -62,7 +59,7 @@ console.log(event)
 
   const isAttending = () => {
     const attendees = event.ticket.map(ticket => {
-      // console.log(ticket.user)
+      console.log(ticket.user)
       return ticket.user
     })
     if (attendees.includes(isAuthenticated().sub)) {
@@ -161,7 +158,7 @@ console.log(event)
     await updateBasket({ 'talk': [...basket.talk, eventId] }, basket.id)
   }
 
-
+if(!event) return null
   return (
     <div className="body">
       <div className="container">
@@ -186,12 +183,10 @@ console.log(event)
                     <button onClick={handleDelete}>Delete event</button>
                   </div>
                   : null}
+                  {!isAttending() && <button onClick={addToBasket} value="Basket">Add to basket</button>}
               </div>
             </div>
-            <div className="interest-buttons">
-              {/* <button onClick={addToWishlist} value="Wishlist" >Add to wish list</button> */}
-              {!isAttending() && <button onClick={addToBasket} value="Basket">Add to basket</button>}
-            </div>
+      
             <div className="description">
               <div className="title-wording">
                 <strong>About this event:</strong><br></br>

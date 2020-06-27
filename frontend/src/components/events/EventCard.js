@@ -23,8 +23,9 @@ function EventCard({ categories, name, id, talk_images, location, date_time , pr
         <div className="card-right">
           <div className="title">
             <div className="name">{name}</div>
-            <div className="price">{price > 0 ? `£${price}` : 'Free'}</div>
+            
           </div>
+          <div className="price">{price > 0 ? `£${price}` : 'Free'}</div>
           <div className="location">{location}</div>
           <div className="date-time">{date_time.replace('T', ' at ').replace(':00Z', '')}</div>
           <div className="tags">

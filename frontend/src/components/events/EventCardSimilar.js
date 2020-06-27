@@ -23,15 +23,6 @@ function EventCardSimilar({ categories, name, id, talk_images, location, date_ti
           <div className="price">{price > 0 ? `£${price}` : 'Free'}</div>
 
           <div className="location">{location}</div>
-          {/* <div className="date-time">{date_time.replace('T', ' at ').replace(':00Z', '')}</div> */}
-          {/* <div className="tags">
-            <strong>Tags:</strong><br></br>
-            {categories.map(category => (
-              <div key={category.id} className="tag">{category.name}</div>
-            ))}
-          </div> */}
-
-
         </div>
       </div>
     </Link>

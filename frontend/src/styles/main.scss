@@ -189,9 +189,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        // background-color: indianred;
         width: 400px;
-        // height: 200px;
       }
       .form-item{
         display: flex;
@@ -199,7 +197,6 @@
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        // background-color: goldenrod;
       }
     }
     .login{
@@ -242,7 +239,6 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  // height: 1000px;
 
     #prof-pic-box{
     margin-top: 10px;
@@ -385,6 +381,7 @@ button.my-tickets-buton{
 .filter-container{
   height: 100vh;
   // background-color: white;
+  z-index: 2;
   overflow-y : auto;
   position: fixed;
 
@@ -399,17 +396,13 @@ button.my-tickets-buton{
     align-items: center;
     margin-bottom: 80px;
     margin-top: 15px;
-    // margin-bottom: 200px;
     width: 240px;
     background-color: white;
-    .reset-button{
 
-    }
     .filter-item {
       display: flex;
       flex-direction: column;
       width: 100%;
-      // background-color: paleturquoise;
       margin: 5px;
       .text-input{
         display: flex;
@@ -425,7 +418,6 @@ button.my-tickets-buton{
         color: rgb(30, 13, 126);
         margin-left: 5px;
 
-        // color: red;
       }
       .filter-options{  
         display: flex;
@@ -433,7 +425,6 @@ button.my-tickets-buton{
         align-items: center;
         justify-content: space-evenly;
 
-        // height: 350px;
         .filter-option, .filter-option-selected{
           height: 25px;
           line-height: 0;
@@ -451,7 +442,6 @@ button.my-tickets-buton{
           color: white;
 
         }
-        
       }
     }
   }
@@ -464,21 +454,16 @@ flex-direction: column;
 align-items: flex-start;
 margin-left: 325px;
 margin-top: 20px;
-// background-color: lightcoral;
 width: 300px;
 width: auto;
+
 .reset-box{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  // background-color: green;
-  .text{
-    // background-color: red;
-  }
   .reset-button{
     margin: 0px;
-    // background-color: lime;
   }
 }
 .link{
@@ -489,9 +474,11 @@ text-decoration: none;
   align-items: center;
   background-color: white;
   width: 100%;
-  height: 150px;
+  height: 180px;
   margin: 5px;
   padding: 10px;
+  transform: translateX(-7em);
+  z-index: 1;
 
   .card-left{
     background-color: white;
@@ -518,9 +505,10 @@ text-decoration: none;
         font-size: 20px;
         margin: 10px 3px;
       }
-      .price{
-        color: gray;
-      }
+    }
+    .price{
+      color: gray;
+      margin-bottom: 1em;
     }
     .location {
       color: black;
@@ -558,8 +546,7 @@ text-decoration: none;
 background-color: white;
 width: 100%;
 padding: 10px;
-.title{
-}
+
 .poll {
   // margin: 10px;
   min-width: 500px;
@@ -632,10 +619,8 @@ padding: 10px;
   }
 
 
-
-
-
   .navbar {
+    z-index: 2;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -646,11 +631,7 @@ padding: 10px;
     text-align: right;
     color: black;
     background-color: white;
-    // .navbar-content{
-    //   display: flex;
-    //   flex-direction: row;
-    //   justify-content: space-between;
-    //   align-items: center;
+
       .navbar-left{
         display: flex;
         flex-direction: row;
@@ -697,9 +678,9 @@ padding: 10px;
         width: 100%;
         height: 1px;
       }
-// }
   
   .footer {
+    z-index: 2;
     position:fixed;
     display: flex;
     text-align: center;
@@ -710,15 +691,25 @@ padding: 10px;
     width:100%;
     height: 30px;
     background-color: black;
-    // z-index: 10;
 
 }
 
 @media only screen and (max-width: 600px) {
   .navbar{
+    background: transparent;
+    width: 30em;
+    position: unset;
+
+    .navbar-right{
+      justify-content: flex-start;
+    }
     .title, .link {
       font-size: 15px;
     }
+    .title{
+      margin-left: 3em;
+    }
+  
   }
   .small-body {
     .register, .login{
@@ -732,8 +723,12 @@ padding: 10px;
 }
 }
 
+.body{
+  transform: translateY(-4em);
+}
 .body-index{
-  width: 115%;
+  width: 135%;
+  transform: translateY(-4em);
 
   .show-filters-button{
     height: 50px;
@@ -742,9 +737,7 @@ padding: 10px;
     width: 100px;
   }
 .filter-container{
-  z-index: 2;
   border-right: 4px solid rgb(30, 13, 126);
-  margin-top: 8px;
   background-color: white;
 
   .hide-filters-button{
@@ -760,10 +753,17 @@ padding: 10px;
     width: 100px;
   }
   .event-card{
-    width:350px;
-    height: 230px;
+    flex-direction: column;
+    width:27em;
+    height: 21em;
     margin-bottom: 60px;
     transform: translateX(-290px);
+
+    .card-right{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 }
 }
@@ -773,9 +773,16 @@ min-height: 10px;
 
 .body{
   .container{
-    width: 50%;
+    width: 80%;
     .title-container{
       flex-direction: column;
+    }
+    .similar-events{
+      width: 13.5em;
+      .similar-events-cards{
+        display: flex;
+        flex-direction: column;
+      }
     }
   }
 }

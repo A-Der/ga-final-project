@@ -39,6 +39,7 @@ function EventIndex() {
     } else { 
       const search = event.target.value
       const startingEvents = filteredEvents ? filteredEvents : events
+
       const filtered = startingEvents.filter((event) => {
         const eventCategories = event.categories.map((currentValue) => {
           return currentValue.id
@@ -165,7 +166,7 @@ const handleHideFilters = () => {
                 </button>)}
             </div>
           </div>
-          {/* <div className="filter-item">Host</div> */}
+          
         </div>
       </div>
       {loading ?
