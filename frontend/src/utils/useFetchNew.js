@@ -8,7 +8,7 @@ const initialState = {
 
 function useFetchNew(request, params = null) {
   const [state, setState] = React.useState(initialState)
-
+  
   React.useEffect(() => {
     const getData = async () => {
       try {

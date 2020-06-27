@@ -21,7 +21,7 @@ function EventShow() {
   const { data: event, loading, error } = result.state
   const setState = result.setState
   const history = useHistory()
-
+console.log(event)
   const { data: events } = useFetch(getAllEvents)
   const [pending, setPending] = React.useState('')
   const handleChange = e => {
@@ -53,9 +53,8 @@ function EventShow() {
     return <Redirect to="/notfound" />
   }
 
-  if (!event) return null
+  // if (!event) return null
 
-  // console.log(isAuthenticated().sub)
 
 
 
@@ -70,7 +69,6 @@ function EventShow() {
       return (true)
     }
 
-    // console.log(attendees)
 
   }
 
@@ -125,7 +123,6 @@ function EventShow() {
     ))
     return filtered
   }
-
 
 
   const picture = () => {

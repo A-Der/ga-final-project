@@ -13,7 +13,7 @@ export const getAllEvents = () => {
 }
 
 export const getSingleEvent = id => {
-  return axios.get(`${baseUrl}/talks/${id}`)
+  return axios.get(`${baseUrl}/talks/${id}/`)
 }
 
 export const createEvent = data => {
