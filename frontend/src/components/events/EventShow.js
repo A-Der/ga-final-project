@@ -128,7 +128,6 @@ function EventShow() {
 
 
 
-
   const picture = () => {
     if (event.talk_images.length === 0) {
       return <img src='https://avatars.slack-edge.com/2020-05-09/1112549471909_7543dde099089941d3c3_512.png' alt={event.name} loading="lazy" className="image" />
@@ -164,7 +163,6 @@ function EventShow() {
     popupToasty('Added to Basket!')
     await updateBasket({ 'talk': [...basket.talk, eventId] }, basket.id)
   }
-
 
 
   return (
