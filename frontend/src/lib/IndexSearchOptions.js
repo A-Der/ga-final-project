@@ -1,18 +1,18 @@
 export const categoryOptions = [
-  { label: 'Arts', id: 8 },
-  { label: 'Education', id: 9 },
-  { label: 'Engineering', id: 10 },
-  { label: 'Business', id: 11 },
-  { label: 'Entertainment', id: 12 },
-  { label: 'Science', id: 13 },
-  { label: 'Marketing', id: 14 },
-  { label: 'Properties', id: 15 },
-  { label: 'Human Studies', id: 16 },
-  { label: 'Technology', id: 17 },
-  { label: 'Health', id: 18 },
-  { label: 'Culture',id: 19 },
-  { label: 'Food & Drink', id: 20 },
-  { label: 'Travel', id: 21 }
+  { label: 'Arts', id: 1 },
+  { label: 'Education', id: 2 },
+  { label: 'Engineering', id: 3 },
+  { label: 'Business', id: 4 },
+  { label: 'Entertainment', id: 5 },
+  { label: 'Science', id: 6 },
+  { label: 'Marketing', id: 7 },
+  { label: 'Properties', id: 8 },
+  { label: 'Human Studies', id: 9 },
+  { label: 'Technology', id: 10 },
+  { label: 'Health', id: 11 },
+  { label: 'Culture',id: 12 },
+  { label: 'Food & Drink', id: 13 },
+  { label: 'Travel', id: 14 }
 ]
 
 export const locationOptions = [

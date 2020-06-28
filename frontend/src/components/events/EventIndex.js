@@ -42,6 +42,7 @@ function EventIndex() {
 
       const filtered = startingEvents.filter((event) => {
         const eventCategories = event.categories.map((currentValue) => {
+          console.log('current value is', currentValue , 'current vaue id is', currentValue.id)
           return currentValue.id
         })
         if (eventCategories.includes(parseInt(search))) {
