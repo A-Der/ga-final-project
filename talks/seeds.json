@@ -1,14 +1,169 @@
 [
-  {
-    "model": "talks.talk",
-    "pk": 1,
-    "fields": {
-      "name": "the talk",
-      "date_time": "2020-06-30T12:30:00Z",
-      "location": "London",
-      "about": "python and django",
-      "host": 1,
-      "price": 3.00
-    }
+{
+  "model": "talks.talk",
+  "pk": 1,
+  "fields": {
+    "name": "Richard Dawkins on The Meaning of Life",
+    "date_time": "2020-06-30T12:30:00Z",
+    "location": "Greater London",
+    "about": "From The Selfish Gene to The Blind Watchmaker, Richard Dawkins has done more than any other scientist to promote and celebrate the origins of life on Earth. \u201cMy eyes are constantly wide open to the extraordinary fact of existence. Not just human existence but the existence of life and how this breathtakingly powerful process, which is natural selection, has managed to take the very simple facts of physics and chemistry and build them up to redwood trees and humans. That's never far from my thoughts, that sense of amazement.\u201d \u2013 Richard Dawkins",
+    "price": "15.00",
+    "host": 1,
+    "categories": [
+      1,
+      9,
+      11,
+      12
+    ]
   }
+},
+{
+  "model": "talks.talk",
+  "pk": 2,
+  "fields": {
+    "name": "Future of Work",
+    "date_time": "2020-08-15T16:00:00Z",
+    "location": "North London",
+    "about": "Companies around the world have found themselves in a new situation where unpredictable circumstances determine how we live and work. Many businesses struggle with adapting, although there are some who have been able to settle and move on. What determines a successful adaptation and what is the role of the physical environment in this process?",
+    "price": "88.00",
+    "host": 1,
+    "categories": [
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "talks.talk",
+  "pk": 3,
+  "fields": {
+    "name": "Tony Robbins on Secrets of Success",
+    "date_time": "2020-08-07T19:00:00Z",
+    "location": "North London",
+    "about": "Live a healthier, wealthier, more fulfilling, passionate and purposeful life \u2013 whether that means achieving in business, reigniting your relationship or discovering who you really are. Tony Robbins\u2019 live events, one-on-one coaching program, training systems and group workshops will help close the gap between where you are and where you want to be.",
+    "price": "20.00",
+    "host": 3,
+    "categories": [
+      2,
+      4,
+      7
+    ]
+  }
+},
+{
+  "model": "talks.talk",
+  "pk": 4,
+  "fields": {
+    "name": "The Afro-Peruvian Sextet's Livestreaming",
+    "date_time": "2020-12-10T20:00:00Z",
+    "location": "South West London",
+    "about": "We will be damned if we are going to skirt our responsibility to keep you entertained and inspired during these difficult times.. With events being cancelled every day, we want to provide a bright spot in all of that. This fully curated online concert will feature the band in an acoustically wonderful hall. No live audience... except you, sitting wherever you'd like around the world... on your computer or mobile device. Afro-Peruvian Jazz Music is a rare combination of music that gives you something that you can feel while also giving you something that you can think about.",
+    "price": "25.00",
+    "host": 4,
+    "categories": [
+      1,
+      5,
+      12
+    ]
+  }
+},
+{
+  "model": "talks.talk",
+  "pk": 5,
+  "fields": {
+    "name": "Localization",
+    "date_time": "2020-06-21T18:00:00Z",
+    "location": "Central London",
+    "about": "It's clear that there's no back to normal. So what comes next? A new human story, founded on the principles of connection and diversity, is emerging.  It's called Localization.  Hear from public figures, internationally respected activists, film makers, economists, mayors and citizens from every corner of the world.  An online programme of inspiring discussions, interviews, films, comedy and music, with: Russell Brand, Brian Eno, Joanna Macy, Helena Norberg-Hodge and more.",
+    "price": "10.00",
+    "host": 2,
+    "categories": [
+      9
+    ]
+  }
+},
+{
+  "model": "talks.talk",
+  "pk": 6,
+  "fields": {
+    "name": "The Shift",
+    "date_time": "2020-07-09T19:00:00Z",
+    "location": "West London",
+    "about": "In just a matter of months, everything as we know it\u2014life, work, how we interact\u2014has seemingly changed. As we continue navigating the ebb and flow of this new reality, business owners and entrepreneurs have been tasked with finding ways to adapt their strategies and transform digitally in order to keep business moving. Whether you\u2019re building, expanding, or starting over again, it\u2019s clear that operating your business for a post COVID-19 world requires a fundamental shift, and we\u2019re here to help.",
+    "price": "8.00",
+    "host": 1,
+    "categories": [
+      2,
+      4,
+      10
+    ]
+  }
+},
+{
+  "model": "talks.talk",
+  "pk": 7,
+  "fields": {
+    "name": "How Freud would have handled the Coronav",
+    "date_time": "2020-11-06T21:00:00Z",
+    "location": "East London",
+    "about": "Freud Museum London takes great pleasure in inviting you to join us for a very special event. Distinguished Freudian practitioner and historian of psychoanalysis, Professor Brett Kahr, will deliver a unique talk about what we might learn from the genius of Sigmund Freud and how that might help us through this extremely challenging period of world history",
+    "price": "17.00",
+    "host": 3,
+    "categories": [
+      2,
+      6,
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "talks.talk",
+  "pk": 8,
+  "fields": {
+    "name": "True Crime: The science of psychopaths",
+    "date_time": "2020-07-03T20:00:00Z",
+    "location": "East London",
+    "about": "Find out what truly makes a psychopath, from the leading expert who helped to create Killing Eve\u2019s Villanelle. Mark Freestone has worked on some of the most interesting, infamous and disturbing psychopath cases of recent times and is now sharing his phenomenal insight. Exploring the many factors that make a psychopath, the complexities and contradictions of their emotions and behaviour, as well as an examination of how the lives of psychopaths develop inside and outside the institutions that are supposed to contain them, this talk will open up a window into the world of those who operate in a void of human emotion ... and what can be done to control them.",
+    "price": "12.00",
+    "host": 1,
+    "categories": [
+      6,
+      9
+    ]
+  }
+},
+{
+  "model": "talks.talk",
+  "pk": 9,
+  "fields": {
+    "name": "DCJazzFest From Home Series by DC Jazz F",
+    "date_time": "2020-08-01T21:00:00Z",
+    "location": "At Home(Webinar)",
+    "about": "The DCJazzFest From Home presented by Live From Our Living Rooms is happening from August 1-9, offering nine days of performances and interviews in an attempt to raise relief funds for DC area artists affected by the COVID-19 pandemic.",
+    "price": "7.00",
+    "host": 2,
+    "categories": [
+      1,
+      5,
+      12
+    ]
+  }
+},
+{
+  "model": "talks.talk",
+  "pk": 10,
+  "fields": {
+    "name": "Melissa Hemsley - How to Eat Well",
+    "date_time": "2020-10-21T18:30:00Z",
+    "location": "South East London",
+    "about": "With home cooking de rigueur for the foreseeable future, bestselling author and cook Melissa Hemsley is here with tricks and tips to ensure lockdown is both nutritious and delicious. Melissa will share ideas for stretching small portions of meat and fish further, and using up the odds and ends that normally get thrown away. Herb stems, veg tops and parmesan rinds are all put to work to provide extra flavour, reduce food waste and save you money while you\u2019re at it. She\u2019ll also share time saving tricks, efficiency tweaks and seasonal swaps to get the most out of your food \u2013 and your leftovers \u2013 all year round.",
+    "price": "15.00",
+    "host": 4,
+    "categories": [
+      11,
+      13
+    ]
+  }
+}
 ]

@@ -1,16 +1,100 @@
 [
-  {
-    "model": "categories.category",
-    "pk": 1,
-    "fields": {
-      "name": "Tech"
-    }
-  },
-  {
-    "model": "categories.category",
-    "pk": 2,
-    "fields": {
-      "name": "Art"
-    }
+{
+  "model": "categories.category",
+  "pk": 1,
+  "fields": {
+    "name": "Arts"
   }
+},
+{
+  "model": "categories.category",
+  "pk": 2,
+  "fields": {
+    "name": "Education"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 3,
+  "fields": {
+    "name": "Engineering"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 4,
+  "fields": {
+    "name": "Business"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 5,
+  "fields": {
+    "name": "Entertainment"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 6,
+  "fields": {
+    "name": "Science"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 7,
+  "fields": {
+    "name": "Marketing"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 8,
+  "fields": {
+    "name": "Properties"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 9,
+  "fields": {
+    "name": "Human Studies"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 10,
+  "fields": {
+    "name": "Technology"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 11,
+  "fields": {
+    "name": "Health"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 12,
+  "fields": {
+    "name": "Culture"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 13,
+  "fields": {
+    "name": "Food & Drink"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 14,
+  "fields": {
+    "name": "Travel"
+  }
+}
 ]

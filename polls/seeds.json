@@ -3,12 +3,16 @@
   "model": "polls.poll",
   "pk": 1,
   "fields": {
-    "question": "How much do you like talks?",
-    "option_a": "Not at all",
-    "option_b": "Usually I like talks",
-    "option_c": "I love talks",
-    "option_d": "Mostly don't like them",
-    "talk": 1
+    "question": "What do you wish you would of had for lockdown?",
+    "option_a": "More toilet paper?",
+    "option_b": "Cooking skills",
+    "option_c": "Roller skates",
+    "option_d": "A Pet",
+    "option_a_count": 25,
+    "option_b_count": 30,
+    "option_c_count": 10,
+    "option_d_count": 35,
+    "talk": 7
   }
 }
 ]

@@ -1,28 +1,111 @@
 [
-  {
-    "model": "jwt_auth.user",
-    "pk": 1,
-    "fields": {
-      "password": "pbkdf2_sha256$180000$n4jCbWSTKYru$e+eVRDK6XWY1ZNXjpCYnjbqyR7Cb4PzQkrW4PXIrpBA=",
-      "last_login": null,
-      "is_superuser": false,
-      "first_name": "Sue",
-      "last_name": "Anne",
-      "is_staff": false,
-      "is_active": true,
-      "date_joined": "2020-06-06T16:21:40.298Z",
-      "email": "test@email.com",
-      "username": "SueWoo",
-      "gender": "Female",
-      "age": null,
-      "ethnicity": "White British",
-      "industry": "Retail",
-      "interests": [
-        1,
-        2
-      ],
-      "groups": [],
-      "user_permissions": []
-    }
+{
+  "model": "jwt_auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$n4jCbWSTKYru$e+eVRDK6XWY1ZNXjpCYnjbqyR7Cb4PzQkrW4PXIrpBA=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Sue",
+    "last_name": "Anne",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-06-06T16:21:40.298Z",
+    "profile_image": "",
+    "email": "test@email.com",
+    "username": "SueWoo",
+    "gender": "Female",
+    "age": null,
+    "ethnicity": "White British",
+    "industry": "Retail",
+    "groups": [],
+    "user_permissions": [],
+    "interests": [
+      1,
+      2
+    ]
   }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$zmFOQG36GVSC$ZsoE+9EBFHefyJX3eHtOhPP7C0r4Y0/PifiqmLnmFPQ=",
+    "last_login": "2020-06-27T14:28:32.894Z",
+    "is_superuser": true,
+    "first_name": "Stewart",
+    "last_name": "Robins",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-06-27T14:28:22.108Z",
+    "profile_image": "https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg-1024x683.jpg",
+    "email": "adderb@email.com",
+    "username": "Adder-Black",
+    "gender": "Male",
+    "age": 30,
+    "ethnicity": "Another Ethnic Group",
+    "industry": "Accounting and Legal",
+    "groups": [],
+    "user_permissions": [],
+    "interests": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pass",
+    "last_login": "2020-06-08T15:00:00Z",
+    "is_superuser": false,
+    "first_name": "Anne",
+    "last_name": "Smith",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-06-27T15:00:52Z",
+    "profile_image": "",
+    "email": "smith@gmail.com",
+    "username": "Anne27",
+    "gender": "Female",
+    "age": 27,
+    "ethnicity": "White British",
+    "industry": "Student",
+    "groups": [],
+    "user_permissions": [],
+    "interests": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$qoDF0IdqUoTL$MDLq4NLGsQgRHxj9V1ntUpDyjNYpA/nqsmZgT4DdC0A=",
+    "last_login": "2020-06-27T19:10:45.312Z",
+    "is_superuser": true,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-06-27T19:10:35.962Z",
+    "profile_image": "",
+    "email": "admin@email.com",
+    "username": "admin",
+    "gender": "",
+    "age": null,
+    "ethnicity": "",
+    "industry": "",
+    "groups": [],
+    "user_permissions": [],
+    "interests": []
+  }
+}
 ]

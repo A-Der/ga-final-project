@@ -3,9 +3,7 @@ from django.contrib.auth import get_user_model
 from django.contrib.postgres.fields import ArrayField
 from talks.models import Talk
 
-
 User = get_user_model()
-
 
 class Basket(models.Model):
     total_price = models.DecimalField(
