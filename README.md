@@ -139,34 +139,64 @@ Working with the same team again where we performed well before, it was a great 
 # Final Product
 
 ![my screenshot](readme-images/homepage.png)
+
 We were quite happy with our unique poll feature and decided to use it on our homepage.
 
+
+
 ![my screenshot](readme-images/index.png)
+
 After logging in the user is forwarded to the talk index page where they can search through various filters.
 
+
+
 ![my screenshot](readme-images/indexMobile.png)
+
 The mobile version of the index page.
 
+
+
 ![my screenshot](readme-images/eventShow.png)
+
 An example of a talk show page.
 
+
+
 ![my screenshot](readme-images/eventShowPt2.png)
+
 Users are able to comment on the talk.
 
+
+
 ![my screenshot](readme-images/checkout.png)
+
 Purchasing the ticket after putting it in the basket.
 
+
+
 ![my screenshot](readme-images/ticket.png)
+
 The unique QR code generated for each ticket.
 
+
+
 ![my screenshot](readme-images/profile.png)
+
 Example of a users profile.
 
+
+
 ![my screenshot](readme-images/profileEdit.png)
+
 How a user can edit their profile.
 
+
+
 ![my screenshot](readme-images/poll.png)
+
 Once a user has bought a ticket to a talk, they are now able to access any polls that have been created for that talk, vote and see the immediate result.
+
+
 
 # Future Content & Improvements
 - A notable improvement in the polls feature to be able that will analyse the voter’s stats and return the data. For example, if 60% of people voted for B, the app will then break down the stats of the voters into the fields they filled out in signing up (age, gender, industry, ethnicity). This is will give depth and texture to talks in being able to instantly on the spot ask the audience questions and receive analytics straight away, which is also fed back to the audience too.
